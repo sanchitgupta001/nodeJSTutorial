@@ -114,5 +114,7 @@
 // console.log(movies.favMovie);
 
 ////////////////////    Shared Modules   ///////////////////
-require("./emily");
-require("./qwerty");
+// require("./emily"); // 
+// require("./qwerty");
+require("./objectFactoryEmily"); // Using Object Factory
+require("./objectFactoryQwerty");
