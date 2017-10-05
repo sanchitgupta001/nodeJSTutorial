@@ -56,7 +56,7 @@
 // };
 // Qwerty.printFirstName();
 
-// // The default calling conetext for this funtion is global
+// // The default calling context for this funtion is global
 // function doSomethingGlobal(){
 // 	console.log("Global function call");
 // 	console.log(this == global);
