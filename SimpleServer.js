@@ -7,7 +7,7 @@ function onRequest(request, response){ // Request object contains info about use
 	response.end();
 }
 
-// Here, two requests are made by the browser. One for the url the user is looking for and other to the favicon
+// Here, two requests are made by the browser. One for the url the user is looking for and other to the favicon.
 
-http.createServer(onRequest).listen(8888);
+http.createServer(onRequest).listen(8888); // 8888: Port Number, onRequest: Callback Function
 console.log("Server is now running");
